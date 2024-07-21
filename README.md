@@ -2,26 +2,30 @@
 
 # Project Setup and Execution Flow
 
-## Run Flow
+## 1. Run Flow
 
-### 0. Environment Configuration
-Follow the instructions provided by CCEVAL to configure the environment.  
+- **step 0: Environment Configuration**
+
+  Follow the instructions provided by CCEVAL to configure the environment.  
 [Reference Link](https://github.com/amazon-science/cceval)
 
-### 1. `/retrieval/1_classify_lang.py`
-- **Purpose**: Categorize the source code repositories into their respective folders based on the programming language.
+- **step 1: `/retrieval/1_classify_lang.py`** 
 
-### 2. `/retrieval/2_original_chunk.py`
-- **Purpose**: Chunk source code.
+    Categorize the source code repositories into their respective folders based on the programming language.
 
-### 3. `/retrieval/3_weight_retrieval.py`
-- **Purpose**: Retrieve data.
+- **step 2: `/retrieval/2_original_chunk.py`**
 
-## Our Retrieval Data
+    Chunk source code.
+
+- **step 3: `/retrieval/3_weight_retrieval.py`**
+
+  Retrieve similar code chunks.
+
+## 2. Our Retrieval Data
 Download the data from the following link: [Download Link](https://drive.google.com/file/d/17BjcCjYdzvN6-Ylr0AezC9m2jsvlvh4j/view?usp=sharing).  
 After downloading, extract the files into the `\data` directory.
 
-## Running Results Displayed on Colab
+## 3. Running Results Displayed on Colab
 
 We show the running results of using the weighted retrieval strategy and the text-embedding-3-large search model in Java on Colab. You can visually observe the execution process of our code.
 
