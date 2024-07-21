@@ -25,7 +25,7 @@ After downloading, extract the files into the `\data` directory.
 
 ## 3. Running Results Displayed on Colab
 
-We show the running results of using the weighted retrieval strategy and the text-embedding-3-large search model in Java on Colab. You can visually observe the execution process of our code.
+We show the running results of using the weighted retrieval strategy and the text-embedding-3-large model on Colab (Programming language: Java). You can visually observe the execution process of our code.
 
 - **text-embedding-3-large**: [View on Colab](https://colab.research.google.com/drive/1z-aLTbm-DkYa7SCKD_LnpwMz0WRzIdJB?usp=sharing)
 - **Weighted retrieval strategy**: [View on Colab](https://colab.research.google.com/drive/1z7CsgzaNkrGhs2GdzHH2znGvqplQorsC?usp=sharing)
