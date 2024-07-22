@@ -7,7 +7,7 @@ We show the running results of using the weighted retrieval strategy and the tex
 - **text-embedding-3-large**: [View on Colab](https://colab.research.google.com/drive/1z-aLTbm-DkYa7SCKD_LnpwMz0WRzIdJB?usp=sharing)
 - **Weighted retrieval strategy**: [View on Colab](https://colab.research.google.com/drive/1z7CsgzaNkrGhs2GdzHH2znGvqplQorsC?usp=sharing)
 
-You can change the parameters in the Colab, such as language and retrieval strategy, to see the results under different settings.
+You can change the parameters in the Colab, such as `language` and `retrieval strategy`, to see the results under different settings.
 
 
 ## 2. Run Flow(Running locally)
