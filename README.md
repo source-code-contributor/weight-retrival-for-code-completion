@@ -1,7 +1,7 @@
 # Project Setup and Execution Flow
 
 ## 1. Run Flow
-<span style="color:red;">这是红色的文字</span>
+<p style="color: red;">这是红色的文字</p>
 
 - **step 0: Environment Configuration**
 
