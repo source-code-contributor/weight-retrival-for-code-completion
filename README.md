@@ -1,7 +1,16 @@
 # Project Setup and Execution Flow
 
-## 1. Run Flow
-<p style="color: red;">这是红色的文字</p>
+## 1. Running Results Displayed on Colab
+
+We show the running results of using the weighted retrieval strategy and the text-embedding-3-large model on Colab (Programming language: Java). You can visually observe the execution process of our code.
+
+- **text-embedding-3-large**: [View on Colab](https://colab.research.google.com/drive/1z-aLTbm-DkYa7SCKD_LnpwMz0WRzIdJB?usp=sharing)
+- **Weighted retrieval strategy**: [View on Colab](https://colab.research.google.com/drive/1z7CsgzaNkrGhs2GdzHH2znGvqplQorsC?usp=sharing)
+
+You can change the parameters in the Colab, such as language and retrieval strategy, to see the results under different settings.
+
+
+## 2. Run Flow(Running locally)
 
 - **step 0: Environment Configuration**
 
@@ -20,18 +29,11 @@
 
   Retrieve similar code chunks.
 
-## 2. Our Retrieval Data
+
+
+## 3. Our Retrieval Data
 Download the data from the following link: [Download Link](https://drive.google.com/file/d/17BjcCjYdzvN6-Ylr0AezC9m2jsvlvh4j/view?usp=sharing).  
 After downloading, extract the files into the `\data` directory.
-
-## 3. Running Results Displayed on Colab
-
-We show the running results of using the weighted retrieval strategy and the text-embedding-3-large model on Colab (Programming language: Java). You can visually observe the execution process of our code.
-
-- **text-embedding-3-large**: [View on Colab](https://colab.research.google.com/drive/1z-aLTbm-DkYa7SCKD_LnpwMz0WRzIdJB?usp=sharing)
-- **Weighted retrieval strategy**: [View on Colab](https://colab.research.google.com/drive/1z7CsgzaNkrGhs2GdzHH2znGvqplQorsC?usp=sharing)
-
-You can change the parameters in the Colab, such as language and retrieval strategy, to see the results under different settings.
 
 ## Acknowledgements
 We are very grateful to CCEVAL for providing the original repository data and source code. Our work is based on their contributions.  
